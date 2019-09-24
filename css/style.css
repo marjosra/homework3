@@ -46,7 +46,7 @@ a {
 table {
   border-collapse: separate;
   border: 2px solid black;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 thead {
