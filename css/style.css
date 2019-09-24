@@ -1,0 +1,104 @@
+/*
+Mark Ramirez
+SI 539
+Week 3 Homework
+23 September 2019
+*/
+
+/* Worked with Julia Maxwell */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #dddddd;
+  background-image: url("../images/pidgeon-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #c12258;
+}
+
+p.main {
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+p.datacite {
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+a {
+  color: #c12258;
+  text-decoration: underline;
+}
+
+:focus {
+  border: 1px solid red;
+}
+
+table {
+  border-collapse: separate;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+thead {
+  min-width: 150px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+
+.colhead, .rowhead, td {
+  text-align: center;
+  padding: 15px;
+}
+
+.rowhead, td {
+  border-top: 2px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover {
+  background-color: #fab9cf;
+}
+
+.colhead:first-child {
+    border-top-left-radius: 10px;
+}
+
+.colhead:last-child {
+    border-top-right-radius: 10px;
+}
+
+tr:last-child th.rowhead:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Following code adapted from https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page */
+footer {
+  position: fixed;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  min-height: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
